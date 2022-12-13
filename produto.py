@@ -6,3 +6,6 @@ class Produto:
         
         self.estoque = estoque
         self.estoque.produtos.append(self)
+
+    def calcula_lucro(self):
+        return self.valor_custo - self.valor_venda
