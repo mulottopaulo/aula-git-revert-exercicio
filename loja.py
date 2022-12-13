@@ -1,3 +1,6 @@
+from estoque import Estoque
+
+
 class Loja:
     def __init__(self):
-        self.produtos = []
+        self.estoque = Estoque(self)
